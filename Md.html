@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 
     <head>
@@ -14,19 +14,30 @@
         <script src="bootstrap/popper.min.js"></script>
         <script src="bootstrap/bootstrap.min.js"></script>
         <style>
-            .col-k {
+            .d-padding {
                 background-color: grey;
                 text-align: center;
-                margin-top: 10px;
-                padding: 50px;
+                padding-top: 50px;
+                padding-bottom: 50px;
             }
 
-            .col-l {
-                margin-top: 10px;
+            .d-md-padding {
+                background-color: grey;
+                text-align: center;
+                padding-top: 75px;
+                padding-bottom: 75px;
             }
+
+            .d-xl-padding {
+                background-color: grey;
+                text-align: center;
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+
+
 
             .row {
-                border-bottom: 2px solid black;
                 padding-bottom: 10px;
             }
         </style>
@@ -35,12 +46,22 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-12 order-1 col-md-4 order-xl-2 col-k">
+                <div class="d-block d-md-none col-12  col-k d-padding">
                     <h2>
                         PROYUGA
                     </h2>
                 </div>
-                <div class="col-12 order-2 col-md-8 order-xl-1 col-l">
+                <div class="d-md-block d-none col-md-4 col-k d-md-padding">
+                    <h2>
+                        PROYUGA
+                    </h2>
+                </div>
+                <div class="d-xl-block d-none col-xl-4 col-k d-xl-padding">
+                    <h2>
+                        PROYUGA
+                    </h2>
+                </div>
+                <div class="col-12  col-md-8 col-l">
                     <h4>End to End Assistance</h4>
                     <p>
                         Proyuga Advanced Technologies Ltd. develops transformative products in VR, AR & MR. Their first product, iB Cricket, offers the world's most immersive cricket experience in virtual reality.
@@ -49,12 +70,22 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 order-1 col-md-4 order-xl-2 col-k">
+                <div class="d-block d-md-none col-12 col-k d-padding">
                     <h2>
                         CYBEREYE
                     </h2>
                 </div>
-                <div class="col-12 order-2 col-md-8 order-xl-1 col-l">
+                <div class="d-md-block d-none col-md-4 col-k d-md-padding">
+                    <h2>
+                        CYBEREYE
+                    </h2>
+                </div>
+                <div class="d-xl-block d-none col-xl-4 col-k d-xl-padding">
+                    <h2>
+                        CYBEREYE
+                    </h2>
+                </div>
+                <div class="col-12 col-md-8 col-l">
                     <h4>End to End Assistance</h4>
                     <p>CyberEye Research Labs & Security Solutions Pvt. Ltd. envisions to create a 'Smart and Secure World'.
                     </p>
@@ -62,10 +93,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 order-1 col-md-4 order-xl-2 col-k">
+                <div class="d-block d-md-none col-12 col-k d-padding">
                     <h3>MAKE THE WORLD WONDERFUL</h3>
                 </div>
-                <div class="col-12 order-2 col-md-8 order-xl-1 col-l">
+                <div class="d-md-block d-none col-md-4 col-k d-md-padding">
+                    <h3>MAKE THE WORLD WONDERFUL</h3>
+                </div>
+                <div class="d-xl-block d-none col-xl-4 col-k d-xl-padding">
+                    <h3>MAKE THE WORLD WONDERFUL</h3>
+                </div>
+                <div class="col-12 col-md-8 col-l">
                     <h4>End to End Assistance</h4>
                     <p>
                         Make the World Wonderful is a civil society organization that aims to build harmony in the world.
@@ -73,6 +110,5 @@
                     <button type="button" class="btn btn-primary btn-sm">View details</button>
                 </div>
             </div>
-        </div>
         </div>
     </body>

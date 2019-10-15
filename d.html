@@ -14,22 +14,22 @@
         <script src="bootstrap/popper.min.js"></script>
         <script src="bootstrap/bootstrap.min.js"></script>
         <style>
-            .col-s {
+            .col-orange {
                 background-color: orange;
                 height: 80px;
             }
 
-            .col-k {
+            .col-green {
                 background-color: green;
                 height: 80px;
             }
 
-            .col-l {
+            .col-indigo {
                 background-color: indigo;
                 height: 80px;
             }
 
-            .col-o {
+            .col-blue {
                 background-color: blue;
                 height: 80px;
             }
@@ -38,12 +38,29 @@
 
     <body>
         <div class="container">
-            <div class="row">
-                <div class="col-6 order-1 col-md-4 order-md-3 col-xl-3 order-xl-4 col-s"></div>
-                <div class="col-6 order-2 col-md-4 order-md-2 col-xl-3 order-xl-3 col-k"></div>
-                <div class="col-6 order-3 col-md-4 order-md-4 col-xl-3 order-xl-1 col-l"></div>
-                <div class="col-6 order-4 col-md-4 order-md-1 col-xl-3 order-xl-2 col-o"></div>
+            <div class="row d-md-none d-xl-none">
+                <div class="col-6  col-orange"></div>
+                <div class="col-6  col-green"></div>
             </div>
+            <div class="row d-md-none d-xl-none">
+                <div class="col-6 col-indigo"></div>
+                <div class="col-6 col-blue"></div>
+            </div>
+            <div class="row d-md-flex d-xl-none d-none">
+                <div class="col-4  col-blue"></div>
+                <div class="col-4   col-green"></div>
+                <div class="col-4   col-orange"></div>
+            </div>
+            <div class="row d-md-flex d-xl-none d-none">
+                <div class="col-4 col-indigo"></div>
+            </div>
+            <div class="row d-xl-flex d-none">
+                <div class="col-3   col-indigo"></div>
+                <div class="col-3   col-blue"></div>
+                <div class="col-3   col-green"></div>
+                <div class="col-3   col-orange"></div>
+            </div>
+        </div>
     </body>
 
-    </html
+</html>
