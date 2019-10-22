@@ -12,6 +12,7 @@
       .row-a {
         border-bottom: 2px solid black;
         margin-top: 10px;
+        display: inline-block;
       }
 
       .n {
@@ -48,10 +49,6 @@
       }
 
       .col-c {
-        margin-left: 30px;
-      }
-
-      .x {
         margin-left: 30px;
       }
 
@@ -119,7 +116,6 @@
 
       span {
         font-size: 30px;
-        display: inline-block;
       }
 
       .card {
@@ -128,10 +124,27 @@
 
       .h {
         margin-bottom: 20px;
+        text-align: center;
       }
 
       .j {
         margin-bottom: 20px;
+      }
+
+      .b {
+        display: inline-block;
+      }
+
+      .op {
+        display: inline-block;
+      }
+
+      h4 {
+        display: inline-block;
+      }
+
+      .x {
+        display: inline-block;
       }
     </style>
   </head>
@@ -141,15 +154,15 @@
       <div class="row row-a d-none d-md-flex">
         <div class="col-6 n">
           <img style="height:40px;" src="assets/logo-gmail.png" alt="logo-gmail">
-          <span>Gmail</span>
+          <h4>Gmail</h4>
         </div>
-        <div class="col-2">
-          <p class="x">for work</p>
+        <div class="col-2" x>
+          <p>for work</p>
         </div>
-        <div class="col-1">
+        <div class="col-1 b">
           <p>Sign in</p>
         </div>
-        <div class="col-3">
+        <div class="col-3 op">
           <button type="button" class="btn btn-primary btn-sm">Create an account</button>
         </div>
       </div>
