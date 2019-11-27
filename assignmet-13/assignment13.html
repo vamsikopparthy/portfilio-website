@@ -31,7 +31,6 @@
       }
 
       .kl {
-        margin-top: 10px;
         background-color: black;
         color: white;
       }
@@ -149,8 +148,8 @@
       }
 
       .sae {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         color: blue;
       }
 
@@ -177,19 +176,78 @@
 
       .dss {
         text-align: right;
+        padding-top: 10px;
       }
 
       hr {
         border-bottom: solid black 1px;
+      }
+
+      .jh {
+        text-align: center;
+      }
+
+      .yu {
+        display: inline-block;
+      }
+
+      .uy {
+        display: inline-block;
+        text-align: right;
+      }
+
+      .bf {
+        display: block;
+      }
+
+      .sd {
+        text-align: center;
+      }
+
+      .sa {
+        text-align: center;
+      }
+
+      .logo-container {
+        padding-top: 10px;
+        background-color: black;
+      }
+
+      .nci {
+        text-align: left;
+      }
+
+      .css {
+        text-align: left;
+      }
+
+      .ecommerce {
+        text-align: left;
+      }
+
+      .nb {
+        filter: invert(100%);
+      }
+
+      .hjk {
+        text-align: right;
+      }
+
+      .git {
+        padding-top: 10px;
+      }
+
+      .po {
+        text-align: center;
       }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <div class="row kl d-md-none d-flex">
-        <div class="col-6 git">
-          <img src="assets/github-logo.svg">
+      <div class="row logo-container d-flex d-md-none">
+        <div class="col-6">
+          <img class="nb" src="assets/github-logo.svg">
         </div>
         <div class="col-3 dss">
           <button type="button" class="btn btn-outline-dark v">Sign up</button>
@@ -205,10 +263,10 @@
     </button>
             </nav>
           </div>
-
         </div>
       </div>
-      <div class="row d-md-none d-flex">
+
+      <div class="row d-flex d-md-none ">
         <div class="col-12 h">Explore</div>
       </div>
       <div class="row d-md-none d-flex">
@@ -216,25 +274,25 @@
         <div class="col-2">Topics</div>
         <div class="col-2">Trending</div>
         <div class="col-2">Collections</div>
-        <div class="col-2 g">Events</div>
+        <div class="col-2">Events</div>
         <div class="col-2"></div>
       </div>
-      <div class="row d-md-none d-flex">
+      <div class="row d-flex d-md-none ">
         <div class="col-12 i">
           <h2>Topics</h2>
         </div>
       </div>
-      <div class="row d-md-none d-flex">
+      <div class="row d-flex d-md-none ">
         <div class='col-12 jk'>
           Browse popular topics on github
         </div>
       </div>
-      <div class="row d-md-none d-flex">
+      <div class="row d-flex d-md-none ">
         <div class="col-12 r">
           <img class="opengl" src="assets/opengl.png">
         </div>
       </div>
-      <div class="row d-md-none d-flex">
+      <div class="row d-flex d-md-none ">
         <div class="col-12 hn">
           Grade up
         </div>
@@ -242,7 +300,7 @@
           OpenGL is a sottware interface that allows a programmer to<br> communicate with graphics interface hardware.
         </div>
       </div>
-      <div class="row d-md-none d-flex">
+      <div class="row d-flex d-md-none ">
         <div class="col-12 fl">
           <img class="flask" src="assets/flask.png">
         </div>
@@ -253,7 +311,7 @@
           flask is a web framework for python based on the Werkzueg<br> toolkit
         </div>
       </div>
-      <div class="row d-md-none d-flex">
+      <div class="row d-flex d-md-none ">
         <div class="col-12 vc">
           <img class="ss" src="assets/gradle.png">
         </div>
@@ -264,209 +322,217 @@
           Gradle is an open-source build tool that helps teams build,<br> automate and deliver better sottware,faster.
         </div>
       </div>
-      <div class="row d-md-none d-flex">
+      <div class="row d-flex d-md-none ">
         <div class="col-12">
           <h3>All featured topics</h3>
         </div>
       </div>
-      <div class="row d-md-none d-flex">
-        <div class="col-1 as">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2 as">
           #
         </div>
-        <div class="col-11 d-md-none d-flex">
-          <h3>3D</h3><br> 3D modelling is the process of virtually developing the<br> surface and structure of a 3D object.<br>
-          <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+        <div class="col-10 ">
+          <div class="col-10 ">
+            <div class="col-6">
+              <h3>3D</h3>
+            </div>
+            <div class="col-6">
+              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+          </div>
+          <p>3D modelling is the process of virtually developing the<br> surface and structure of a 3D object.</p>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1 as">
+
+      <div class="row d-flex d-md-none ">
+        <div class="col-2 as">
           #
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>Ajax</h3>
           <p>Ajax is a technique for creating interactive web applications.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1 as">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2 as">
           #
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>Algorithm</h3>
           <p>Algorithms are self-contained sequences that carry out a<br> variety of tasks.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2">
           <img class="amp" src="assets/amphp.png">
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>Amp</h3>
           <p>Amp is a non-blocking concurrency framework for PHP.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1 ">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2 ">
           <img class="android" src="assets/android.png">
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>Android
-            <h3>
-              <p>Android is an operating system built by Google designed for<br> mobile devices.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </h3>
+          <p>Android is an operating system built by Google designed for<br> mobile devices.</p>
+          <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1 ">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2 ">
           <img class="angular" src="assets/angular.png">
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>Angular</h3>
           <p>Angular is an open source web application platform.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1 ">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2 ">
           <img class="ansible" src="assets/ansible.png">
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>Ansible</h3>
           <p>Ansible is a simple and powerful automation engine.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1 as">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2 as">
           #
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>API</h3>
           <p>An API(Application Programming interface) is a collection of<br> protocols and subroutines for building software.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1 ">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2 ">
           <img class="Ard" src="assets/arduino.png">
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>Arduino</h3>
           <p>Arduino is an open source hardware and software company<br> and maker community.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1 ">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2 ">
           <img class="ASP" src="assets/aspnet.png">
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>ASP.NET</h3>
           <p>ASP.NET is a web framework for building modern web apps<br> and services.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2">
           <img class="Atom" src="assets/atom.png">
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>Atom</h3>
           <p>Atom is a open source text editor built with web<br> technologies.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1 ">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2 ">
           <img class="Awesome" src="assets/awesome.png">
         </div>
-        <div class="col-11 ">
+        <div class="col-10 ">
           <h3>Awesome Lists</h3>
           <p>An awesome list is a list of awesome things curated by the<br> community.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1">
+      <div class="row d-flex d-md-none ">
+        <div class="col-2">
           <img class="aws" src="assets/aws.png">
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>Amazon WEb Services</h3>
           <p>Amazon Web Services provides on-demand cloud<br> compuing platforms on a subscription basis.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1">
+      <div class="row d-flex d-md-none">
+        <div class="col-2">
           <img class="Azure" src="assets/azure.png">
         </div>
-        <div class="col-11">
+        <div class="col-10">
           <h3>Azure</h3>
           <p>Azure is a cloud computing service created by Microsoft.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
-        <div class="col-1 as">
+      <div class="row d-flex d-md-none">
+        <div class="col-2 as">
           #
         </div>
-        <div class="col-11 ">
+        <div class="col-10 ">
           <h3>Mobille</h3>
           <p>Mobile apps,Mobile OS,mobile databases, & mobile testing<br> frameworks.</p>
           <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
         </div>
+        <hr>
       </div>
-      <hr>
 
-      <div class="row d-md-none d-flex">
+      <div class="row d-flex d-md-none">
         <div class="col-12 load">
           Load more...
         </div>
       </div>
-      <div class="row d-md-none d-flex">
+      <div class="row d-flex d-md-none">
         <div class="col-12">
           <span>Popular topics</span>
         </div>
       </div>
-      <div class="row d-md-none d-flex">
+      <div class="row d-flex d-md-none">
         <div class="col-2">
           <button type="button" class="btn btn-light">react</button>
         </div>
         <div class="col-2">
           <button type="button" class="btn btn-light">javascripit</button>
         </div>
-        <div class="col-2">
+        <div class="col-2 css">
           <button type="button" class="btn btn-light">css</button>
         </div>
         <div class="col-2">
@@ -475,19 +541,19 @@
         <div class="col-2">
           <button type="button" class="btn btn-light">html</button>
         </div>
-        <div class="col-2">
+        <div class="col-2 ecommerce">
           <button type="button" class="btn btn-light">ecommerce</button>
         </div>
       </div>
 
-      <div class="row sae">
+      <div class="row sae d-flex d-md-none">
         <div class="col-2">
           <button type="button" class="btn btn-light">python3</button>
         </div>
         <div class="col-4">
           <button type="button" class="btn btn-light">ecommerce-platform</button>
         </div>
-        <div class="col-2">
+        <div class="col-2 nci">
           <button type="button" class="btn btn-light">nci-itcr</button>
         </div>
         <div class="col-4">
@@ -502,9 +568,7 @@
 
 
 
-
-
-      <!--<div class="row kl">
+      <div class="row kl d-md-flex d-none">
         <div class="col-6 git">
           <img src="assets/github-logo.svg">
         </div>
@@ -522,301 +586,876 @@
     </button>
             </nav>
           </div>
-
-          <div class="row">
-            <div class="col-12 h">Explore</div>
-          </div>
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-2">Topics</div>
-            <div class="col-2">Trending</div>
-            <div class="col-2">Collections</div>
-            <div class="col-2 g">Events</div>
-            <div class="col-2"></div>
-          </div>
-          <div class="row">
-            <div class="col-12 i">
-              <h2>Topics</h2>
+        </div>
+      </div>
+      <div class="row d-md-flex d-none">
+        <div class="col-1 "></div>
+        <div class="col-1 ">Explore</div>
+        <div class="col-1 ">Topics</div>
+        <div class="col-1 ">Trending</div>
+        <div class="col-2 jh">Collections</div>
+        <div class="col-1 ">Events</div>
+        <div class="col-5 "></div>
+      </div>
+      <div class="row d-md-flex d-none">
+        <div class="col-12 i">
+          <h2>Topics</h2>
+        </div>
+      </div>
+      <div class="row d-md-flex d-none">
+        <div class='col-12 jk'>
+          <p>Browse popular topics on github</p>
+        </div>
+      </div>
+      <div class="row d-md-flex d-none">
+        <div class="col-4 r">
+          <img class="opengl" src="assets/opengl.png">
+          <h3>OpenGL</h3>
+          <p>
+            OpenGL is a sottware<br> interface that allows a<br> programmer to<br> communicate with<br> graphics hardware.
+          </p>
+        </div>
+        <div class="col-4 fl">
+          <img class="flask" src="assets/flask.png">
+          <h3>flask</h3>
+          <p>
+            flask is a web<br> framework for python<br> based on the<br> Werkzueg toolkit
+          </p>
+        </div>
+        <div class="col-4 vc">
+          <img class="ss" src="assets/gradle.png">
+          <h3>Gradle</h3>
+          <p>
+            Gradle is an open-source build tool that helps teams build,<br> automate and deliver better sottware,faster.
+          </p>
+        </div>
+      </div>
+      <div class="row d-md-flex d-none">
+        <div class="col-12">
+          <h3>All featured topics</h3>
+        </div>
+      </div>
+      <div class="row d-md-flex d-none">
+        <div class="col-2 as">
+          #
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">3D</h3>
             </div>
-          </div>
-          <div class="row">
-            <div class='col-12 jk'>
-              Browse popular topics on github
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-12 r">
-              <img class="opengl" src="assets/opengl.png">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 hn">
-              Grade up
-            </div>
-            <div class="col-12 yu">
-              OpenGL is a sottware interface that allows a programmer to<br> communicate with graphics interface hardware.
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 fl">
-              <img class="flask" src="assets/flask.png">
-            </div>
-            <div class="col-12 bn">
-              flask
-            </div>
-            <div class="col-12 mn">
-              flask is a web framework for python based on the Werkzueg<br> toolkit
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 vc">
-              <img class="ss" src="assets/gradle.png">
-            </div>
-            <div class="col-12 ck">
-              Gradle
-            </div>
-            <div class="col-12 po">
-              Gradle is an open-source build tool that helps teams build,<br> automate and deliver better sottware,faster.
-            </div>
-          </div>
-          <div class="row">
             <div class="col-12">
-              <h3>All featured topics</h3>
+              <p class="df">3D modelling is the process of virtually developing the surface and structure of a 3D<br> object.</p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-1 as">
-              #
-            </div>
-            <div class="col-11">
-              <h3>3D</h3><br> 3D modelling is the process of virtually developing the<br> surface and structure of a 3D object.<br>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
+        </div>
+        <hr>
+      </div>
 
-          <div class="row">
-            <div class="col-1 as">
-              #
-            </div>
-            <div class="col-11">
-              <h3>Ajax</h3>
-              <p>Ajax is a technique for creating interactive web applications.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
 
-          <div class="row">
-            <div class="col-1 as">
-              #
+      <div class="row d-md-flex d-none">
+        <div class="col-2 as">
+          #
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Ajax</h3>
             </div>
-            <div class="col-11">
-              <h3>Algorithm</h3>
-              <p>Algorithms are self-contained sequences that carry out a<br> variety of tasks.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
             </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1">
-              <img class="amp" src="assets/amphp.png">
-            </div>
-            <div class="col-11">
-              <h3>Amp</h3>
-              <p>Amp is a non-blocking concurrency framework for PHP.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1 ">
-              <img class="android" src="assets/android.png">
-            </div>
-            <div class="col-11">
-              <h3>Android
-                <h3>
-                  <p>Android is an operating system built by Google designed for<br> mobile devices.</p>
-                  <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1 ">
-              <img class="angular" src="assets/angular.png">
-            </div>
-            <div class="col-11">
-              <h3>Angular</h3>
-              <p>Angular is an open source web application platform.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1 ">
-              <img class="ansible" src="assets/ansible.png">
-            </div>
-            <div class="col-11">
-              <h3>Ansible</h3>
-              <p>Ansible is a simple and powerful automation engine.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1 as">
-              #
-            </div>
-            <div class="col-11">
-              <h3>API</h3>
-              <p>An API(Application Programming interface) is a collection of<br> protocols and subroutines for building software.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1 ">
-              <img class="Ard" src="assets/arduino.png">
-            </div>
-            <div class="col-11">
-              <h3>Arduino</h3>
-              <p>Arduino is an open source hardware and software company<br> and maker community.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1 ">
-              <img class="ASP" src="assets/aspnet.png">
-            </div>
-            <div class="col-11">
-              <h3>ASP.NET</h3>
-              <p>ASP.NET is a web framework for building modern web apps<br> and services.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1">
-              <img class="Atom" src="assets/atom.png">
-            </div>
-            <div class="col-11">
-              <h3>Atom</h3>
-              <p>Atom is a open source text editor built with web<br> technologies.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1 ">
-              <img class="Awesome" src="assets/awesome.png">
-            </div>
-            <div class="col-11 ">
-              <h3>Awesome Lists</h3>
-              <p>An awesome list is a list of awesome things curated by the<br> community.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1">
-              <img class="aws" src="assets/aws.png">
-            </div>
-            <div class="col-11">
-              <h3>Amazon WEb Services</h3>
-              <p>Amazon Web Services provides on-demand cloud<br> compuing platforms on a subscription basis.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1">
-              <img class="Azure" src="assets/azure.png">
-            </div>
-            <div class="col-11">
-              <h3>Azure</h3>
-              <p>Azure is a cloud computing service created by Microsoft.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-1 as">
-              #
-            </div>
-            <div class="col-11">
-              <h3>Mobille</h3>
-              <p>Mobile apps,Mobile OS,mobile databases, & mobile testing<br> frameworks.</p>
-              <button type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
-            </div>
-          </div>
-          <hr>
-
-          <div class="row">
-            <div class="col-12 load">
-              Load more...
-            </div>
-          </div>
-          <div class="row">
             <div class="col-12">
-              <span>Popular topics</span>
+              <p class="bf">Ajax is a technique for creating interactive web applications.</p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-2">
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2 as">
+          #
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Algorithm</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">Algorithms are self-contained sequences that carry out a variety of tasks.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2">
+          <img class="amp" src="assets/amphp.png">
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Amp</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">Amp is a non-blocking concurrency framework for PHP.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2 ">
+          <img class="android" src="assets/android.png">
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Android
+              </h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">Android is an operating system built by Google designed for mobile devices.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2 ">
+          <img class="angular" src="assets/angular.png">
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Angular</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">Angular is an open source web application platform.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2 ">
+          <img class="ansible" src="assets/ansible.png">
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Ansible</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">Ansible is a simple and powerful automation engine.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2 as">
+          #
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">API</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">An API(Application Programming interface) is a collection of protocols and subroutines for building software.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2 ">
+          <img class="Ard" src="assets/arduino.png">
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Arduino</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">Arduino is an open source hardware and software company and maker community.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2 ">
+          <img class="ASP" src="assets/aspnet.png">
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">ASP.NET</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">ASP.NET is a web framework for building modern web apps and services.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2">
+          <img class="Atom" src="assets/atom.png">
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Atom</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">Atom is a open source text editor built with web technologies.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2 ">
+          <img class="Awesome" src="assets/awesome.png">
+        </div>
+        <div class="col-10 ">
+          <div class="row d-md-flex d-none">
+            <div class="col-6 ">
+              <h3 class="yu">Awesome Lists</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12 ">
+              <p class="bf">An awesome list is a list of awesome things curated by the community.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2">
+          <img class="aws" src="assets/aws.png">
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Amazon WEb Services</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">Amazon Web Services provides on-demand cloud computing platforms on a<br> subscription basis.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2">
+          <img class="Azure" src="assets/azure.png">
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Azure</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">Azure is a cloud computing service created by Microsoft.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-2 as">
+          #
+        </div>
+        <div class="col-10">
+          <div class="row d-md-flex d-none">
+            <div class="col-6">
+              <h3 class="yu">Mobille</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+            <div class="col-12">
+              <p class="bf">Mobile apps,Mobile OS,mobile databases, & mobile testing frameworks.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row d-md-flex d-none">
+        <div class="col-12 load">
+          Load more...
+        </div>
+      </div>
+      <div class="row d-md-flex d-none">
+        <div class="col-12">
+          <h3>Popular topics</h3>
+        </div>
+      </div>
+      <div class="row d-md-flex d-none">
+        <div class="col-1">
+          <button type="button" class="btn btn-light">react</button>
+        </div>
+        <div class="col-2 sd">
+          <button type="button" class="btn btn-light">javascripit</button>
+        </div>
+        <div class="col-1">
+          <button type="button" class="btn btn-light">css</button>
+        </div>
+      </div>
+      <div class="row d-md-flex d-none">
+        <div class="col-1">
+          <button type="button" class="btn btn-light">python</button>
+        </div>
+        <div class="col-1">
+          <button type="button" class="btn btn-light">html</button>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn btn-light">ecommerce</button>
+        </div>
+      </div>
+
+      <div class="row sae d-md-flex d-none">
+        <div class="col-1">
+          <button type="button" class="btn btn-light">python3</button>
+        </div>
+        <div class="col-3 sa">
+          <button type="button" class="btn btn-light">ecommerce-platform</button>
+        </div>
+      </div>
+      <div class="row d-md-flex d-none">
+        <div class="col-1">
+          <button type="button" class="btn btn-light">nci-itcr</button>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn btn-light">solidus-extensions</button>
+        </div>
+      </div>
+
+
+
+
+      <div class="row kl d-xl-flex d-lg-none">
+        <div class="col-2"></div>
+        <div class="col-1 git">
+          <img src="assets/github-logo.svg">
+        </div>
+        <div class="col-1">
+          <p>Why Github?</p>
+        </div>
+        <div class="col-1">
+          <p>Enterprise</p>
+        </div>
+        <div class="col-1">
+          <p>Explore</p>
+        </div>
+        <div class="col-1">
+          <p>Marketplace</p>
+        </div>
+        <div class="col-1">
+          <p>Pricing</p>
+        </div>
+        <div class="col-1">
+          <p>Search GitHub</p>
+        </div>
+        <div class="col-1">
+          <P>Sign in</P>
+        </div>
+
+        <div class="col-1 dss">
+          <button type="button" class="btn btn-outline-dark v">Sign up</button>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <div class="row d-xl-flex d-lg-none">
+        <div class="col-2 "></div>
+        <div class="col-1 ">Explore</div>
+        <div class="col-1 ">Topics</div>
+        <div class="col-1 ">Trending</div>
+        <div class="col-1 ">Collections</div>
+        <div class="col-1 ">Events</div>
+        <div class="col-5 "></div>
+      </div>
+      <div class="row d-xl-flex d-lg-none">
+        <div class="col-12 i">
+          <h2>Topics</h2>
+        </div>
+      </div>
+      <div class="row d-xl-flex d-lg-none">
+        <div class="col-12 po">
+          <p>Browse popular topics on github</p>
+        </div>
+      </div>
+      <div class="row d-xl-flex d-lg-none">
+        <div class=class="col-1"></div>
+        <div class="col-3 r">
+          <img class="opengl" src="assets/opengl.png">
+          <h3>OpenGL</h3>
+          <p>
+            OpenGL is a sottware interface that<br> allows a programmer to communicate<br> with graphics hardware.
+          </p>
+        </div>
+        <div class="col-3 fl">
+          <img class="flask" src="assets/flask.png">
+          <h3>flask</h3>
+          <p>
+            flask is a web framework for python<br> based on the Werkzueg toolkit.
+          </p>
+        </div>
+        <div class="col-3 vc">
+          <img class="ss" src="assets/gradle.png">
+          <h3>Gradle</h3>
+          <p>
+            Gradle is an open-source build tool<br> that helps teams build, automate and<br> deliver better sottware,faster.
+          </p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <div class="row d-xl-flex d-lg-none">
+        <div class="col-2"></div>
+        <div class="col-4">
+          <h3>All featured topics</h3>
+        </div>
+        <div class="col-2">
+          <p>Popular topics</p>
+        </div>
+        <div class="col-4"></div>
+      </div>
+
+
+      <div class="row d-xl-flex d-lg-none">
+        <div class="col-1"></div>
+        <div class="col-1 as">
+          #
+        </div>
+        <div class="col-5">
+          <div class="row d-xl-flex d-lg-none">
+            <div class="col-6">
+              <h3 class="yu">3D</h3>
+            </div>
+            <div class="col-6 hjk">
+              <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+            </div>
+
+            <div class="col-12">
+              <p class="df">3D modelling is the process of virtually developing the surface and structure of a 3D<br> object.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="row d-xl-flex d-lg-none">
+            <div class="col-4">
               <button type="button" class="btn btn-light">react</button>
             </div>
-            <div class="col-2">
+            <div class="col-4">
               <button type="button" class="btn btn-light">javascripit</button>
             </div>
-            <div class="col-2">
+            <div class="col-4">
               <button type="button" class="btn btn-light">css</button>
             </div>
-            <div class="col-2">
+            <div class="col-4">
               <button type="button" class="btn btn-light">python</button>
             </div>
-            <div class="col-2">
+            <div class="col-4">
               <button type="button" class="btn btn-light">html</button>
             </div>
-            <div class="col-2">
+            <div class="col-4">
               <button type="button" class="btn btn-light">ecommerce</button>
             </div>
-          </div>
-
-          <div class="row sae">
-            <div class="col-2">
+            <div class="col-4">
               <button type="button" class="btn btn-light">python3</button>
             </div>
-            <div class="col-4">
-              <button type="button" class="btn btn-light">ecommerce-platform</button>
+            <div class="col-8">
+              <button type="button" class="btn btn-light">commerce-platform</button>
             </div>
-            <div class="col-2">
+            <div class="col-4">
               <button type="button" class="btn btn-light">nci-itcr</button>
             </div>
-            <div class="col-4">
-              <button type="button" class="btn btn-light">solidus-extensions</button>
+            <div class="col-6">
+              <p>solidus-extensions</p>
+            </div>
+            <div class="col-2">
             </div>
           </div>
--->
+          <div class="col-2"></div>
+        </div>
+        <hr>
+      </div>
+    </div>
 
 
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1 as">
+        #
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Ajax</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Ajax is a technique for creating interactive web applications.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
 
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1 as">
+        #
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Algorithm</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Algorithms are self-contained sequences that carry out a variety of tasks.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
 
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1">
+        <img class="amp" src="assets/amphp.png">
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Amp</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Amp is a non-blocking concurrency framework for PHP.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
 
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1 ">
+        <img class="android" src="assets/android.png">
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Android
+            </h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Android is an operating system built by Google designed for mobile devices.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
 
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1 ">
+        <img class="angular" src="assets/angular.png">
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Angular</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Angular is an open source web application platform.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
 
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1 ">
+        <img class="ansible" src="assets/ansible.png">
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Ansible</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Ansible is a simple and powerful automation engine.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
+
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1 as">
+        #
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">API</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">An API(Application Programming interface) is a collection of protocols and subroutines for building software.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
+
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1 ">
+        <img class="Ard" src="assets/arduino.png">
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Arduino</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Arduino is an open source hardware and software company and maker community.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
+
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1 ">
+        <img class="ASP" src="assets/aspnet.png">
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">ASP.NET</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">ASP.NET is a web framework for building modern web apps and services.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
+
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1">
+        <img class="Atom" src="assets/atom.png">
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Atom</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Atom is a open source text editor built with web technologies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
+
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1 ">
+        <img class="Awesome" src="assets/awesome.png">
+      </div>
+      <div class="col-5 ">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6 ">
+            <h3 class="yu">Awesome Lists</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12 ">
+            <p class="bf">An awesome list is a list of awesome things curated by the community.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
+
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1">
+        <img class="aws" src="assets/aws.png">
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Amazon WEb Services</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Amazon Web Services provides on-demand cloud computing platforms on a<br> subscription basis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
+
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1"></div>
+      <div class="col-1">
+        <img class="Azure" src="assets/azure.png">
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Azure</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Azure is a cloud computing service created by Microsoft.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
+
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-1 "></div>
+      <div class="col-1 as">
+        #
+      </div>
+      <div class="col-5">
+        <div class="row d-xl-flex d-lg-none">
+          <div class="col-6">
+            <h3 class="yu">Mobille</h3>
+          </div>
+          <div class="col-6 hjk">
+            <button class="uy" type="button" class="btn btn-light"><img class="star" src="assets/star.svg">&nbsp star</img></button>
+          </div>
+          <div class="col-12">
+            <p class="bf">Mobile apps,Mobile OS,mobile databases, & mobile testing frameworks.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <hr>
+    </div>
+
+    <div class="row d-xl-flex d-lg-none">
+      <div class="col-3"></div>
+      <div class="col-6 load">
+        Load more...
+      </div>
+      <div class="col-3"></div>
+    </div>
+    </div>
     </div>
   </body>
 
