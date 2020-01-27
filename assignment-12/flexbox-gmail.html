@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Flexbox</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" type="text/css" href="flexbox.css" />
+        <style>
+            .flex-box {
+                display: flex;
+                max-width: 100vw;
+            }
+
+            .demo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .stayorg {
+                width: 100%;
+            }
+
+            .header {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .gmailimg {
+                width: 40px;
+                height: 30px;
+            }
+
+            .headers {
+                display: flex;
+                align-items: center;
+            }
+
+            .headingbutton {
+                display: flex;
+                border: 1px solid black;
+                background-color: blue;
+                padding: 5px;
+                color: white;
+                margin-top: 20px;
+            }
+
+            .org {
+                background-color: whitesmoke;
+                width: 100%;
+            }
+
+            .headingline {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .forwork {
+                display: flex;
+            }
+
+            .titleheading {
+                font-size: 50px;
+            }
+
+            .paragraph {
+                margin-top: 30px;
+                font-size: 20px;
+            }
+
+            .paragraphone {
+                font-size: 40px;
+                margin-top: 10px;
+                text-align: center;
+            }
+
+            .gtgi {
+                text-align: center;
+                border: 1px solid black;
+                background-color: blue;
+                padding: 5px;
+                color: white;
+                margin-top: 20px;
+                display: flex;
+
+            }
+
+            .gtgis {
+                width: 120px;
+                border: 1px solid black;
+                background-color: blue;
+                padding: 5px;
+                color: white;
+                margin-top: 20px;
+                display: flex;
+                text-align: center;
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .getgmailicon {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .ease {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .desktopimgsa {
+                background-color: whitesmoke;
+                width: 100%;
+            }
+
+            .social {
+                background-color: whitesmoke;
+                width: 100%;
+            }
+
+            .drop {
+                text-align: center;
+
+            }
+
+            .instantly {
+                font-size: 29px;
+                text-align: center;
+            }
+
+            .insts {
+                text-align: center;
+            }
+
+            .never-drop {
+                background-color: whitesmoke;
+                width: 100%;
+            }
+
+            .suspiciouses {
+                background-color: whitesmoke;
+                width: 100%;
+            }
+
+            .right {
+                text-align: center;
+            }
+
+            .tripphoto {
+                background-color: whitesmoke;
+                width: 100%;
+            }
+
+            .gmaillog {
+                background-color: whitesmoke;
+                width: 100%;
+                width: 80px;
+                height: 60px;
+
+            }
+
+            .question {
+
+                height: 20px;
+                width: 30px;
+
+            }
+
+            .gl {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+
+            .privacy {
+                display: flex;
+                margin-right: 20px;
+            }
+
+            .help {
+                display: flex;
+                margin-right: 20px;
+                align-items: center;
+            }
+
+            .pr {
+                margin-right: 20px;
+            }
+
+            .headcreate {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .tabheader {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .headingbutto {
+
+                border: 1px solid black;
+                background-color: blue;
+                padding: 5px;
+                color: white;
+                margin-top: 20px;
+            }
+
+            .headingbutt {
+                border: 1px solid black;
+                background-color: blue;
+                padding: 5px;
+                color: white;
+                margin-top: 20px;
+                width: 120px;
+                text-align: center;
+            }
+
+            .sf {
+                margin-right: 15px;
+            }
+
+            .getmoregmail {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 20px;
+                margin-top: 100px;
+                width: 100%;
+            }
+
+            .triphoto {
+                width: 50%;
+                margin-right: 40px;
+            }
+
+            .withgmail {
+                display: flex;
+                background-color: whitesmoke;
+            }
+
+            .w {
+                width: 100%;
+            }
+
+            @media (max-width: 700px) {
+                .tabheader {
+                    display: none;
+                }
+                .withgmail {
+                    display: none;
+                }
+                .flexbox>.footers {
+                    background-color: blue;
+                    display: none;
+                }
+                .flexbox>.cv {
+                    display: none;
+                }
+                .flexbox>.reset {
+                    display: none;
+                }
+                .flexbox>.rightr {
+                    display: none;
+                }
+                .flexbox>.sidebyside {
+                    display: none;
+                }
+                .demo {
+                    display: column;
+                }
+                .flexbox>.pr {
+                    display: none;
+                }
+                .gtgis {
+                    display: none;
+                }
+
+            }
+
+
+            @media (min-width: 700px) {
+
+                .footer {
+                    display: none;
+                    background-color: pink;
+                }
+                .instantly {
+                    display: none;
+                }
+                .instantly {
+                    display: none;
+                }
+                .right {
+                    display: none;
+                }
+                .tripo {
+                    display: none;
+                }
+                .right {
+                    display: none;
+                }
+                .insts {
+                    display: none;
+                }
+                .bl {
+                    display: none;
+                }
+                .drop {
+                    display: none;
+                }
+                .blk {
+                    display: none;
+                }
+                .header {
+                    display: none;
+                }
+                .headingline {
+                    display: none;
+                }
+                .titleheading {
+                    display: none;
+                }
+                .getgmailicon {
+                    display: none;
+                }
+                .stayorg {
+                    display: none;
+                }
+                .paragraph {
+                    display: none;
+                }
+                .hre {
+                    display: none;
+                }
+                .suspiciouses {
+                    display: none;
+                }
+
+
+            }
+
+            .sidebyside {
+                margin-top: 20px;
+                display: flex;
+                background-color: whitesmoke;
+            }
+
+            .imgtake {
+                width: 100%;
+            }
+
+            .imgtakes {
+                width: 100%;
+            }
+
+            .tabinstss {
+                text-align: center;
+                font-size: 30px;
+            }
+
+            .tabinsts {
+                text-align: center;
+
+            }
+
+            .tabdrops {
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .tabdrop {
+
+                text-align: center;
+            }
+
+            .sidebya {
+                text-align: center;
+                padding: 20px;
+            }
+
+            .sideby {
+                padding: 20px;
+            }
+
+            .droop {
+                text-align: center;
+            }
+
+            .tre {
+                width: 100%;
+            }
+
+            .rightr {
+                margin-top: 20px;
+                display: flex;
+                background-color: whitesmoke;
+            }
+
+            .rights {
+                text-align: center;
+                width: 100%;
+                padding: 20px;
+            }
+
+            .rto {
+
+                width: 100%;
+            }
+
+            .reset {
+                margin-top: 20px;
+                display: flex;
+                background-color: whitesmoke;
+            }
+
+            .avoids {
+                width: 100%;
+            }
+
+            .cv {
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .emails {
+                margin-left: 30px;
+                text-align: center;
+            }
+
+            .avio {
+                width: 100%;
+            }
+
+            /*.footers {* /
+                /*    display: flex;*/
+
+            /*}*/
+
+            .get {
+                text-align: center;
+            }
+
+            .q {
+                display: flex;
+                align-items: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="flexbox">
+
+
+            <div class="header">
+                <div class="headers">
+                    <img class="gmailimg" src="assets/logo-gmail.png">Gmail
+                </div>
+                <div class="headingbutton">
+                    Get Gmail
+                </div>
+            </div>
+            <hr class="hre">
+            <div class="headingline">
+                <div class="forwork">
+                    For work
+                </div>
+                <div>
+                    Sign in
+                </div>
+            </div>
+
+            <div class="tabheader">
+                <div class="headers">
+                    <img class="gmailimg" src="assets/logo-gmail.png">Gmail
+                </div>
+                <div class="headcreate">
+                    <p class="sf">For work</p>
+                    <p class="sf">Sign in</p>
+                    <p class="headingbutto">
+                        Create an account
+                    </p>
+                </div>
+            </div>
+
+
+
+
+            <div class="withgmail">
+                <div class="getmoregmail">
+                    <h2 class="get">
+                        Get more done with Gmail
+                    </h2>
+                    <p>
+                        Now more secure.smarter and easier to use-helping<br> you save time and do more with your inbox.
+                    </p>
+                    <p class="headingbutt">
+                        Create an account
+                    </p>
+                </div>
+                <div class="w">
+                    <img class="tripphoto" src="assets/landing-page-image-desktop.png">
+                </div>
+            </div>
+
+
+            <div class="demo">
+                <div class="titleheading">
+                    Get more done with Gmail
+                </div>
+                <div class="paragraph">
+                    Now more secure,smarter and easier to use-helping you save time and do more with your inbox.
+                </div>
+                <div class="stayorg">
+                    <img class="org" src="assets/landing-page-image-mobile.png">
+                </div>
+                <div class="getgmailicon">
+                    <p class="gtgi">
+                        Get Gmail
+                    </p>
+                </div>
+            </div>
+
+            <div class="paragraphone">
+                Experience Gmail on any device
+            </div>
+            <div class="ease">
+                The ease & simplicity of Gmail, whereever you are.
+            </div>
+            <div class="buttons">
+
+                <img style="height:50px; " src="assets/google-playstore.png ">
+                <img style="height:50px; " src="assets/app-store.png ">
+            </div>
+            <div class="desktopimgs">
+                <img class="desktopimgsa" src="assets/experience-image-mobile-desktop.png " alt="exp ">
+            </div>
+            <div class="instantly">
+                <p>Stay organised instantly</p>
+            </div>
+            <p class="insts">
+                See what's new at a glance and decide what you want to read and respond to.
+            </p>
+            <div class="bl">
+                <img class="social" src="assets/stay-organised-instantly-mobile.png ">
+            </div>
+            <h2 class="drop">
+                Never drop the ball
+            </h2>
+            <p class="drop">
+                Get nudges that remind you to follow up and respond to messages. so that nothing slips through the cracks.
+            </p>
+            <div class="blk">
+                <img class="never-drop" src="assets/never-drop-the-ball-mobile.png">
+            </div>
+
+            <div class="sidebyside">
+                <div class="sideby">
+                    <div class="tabinstss">
+                        <p>Stay organised instanly</p>
+                    </div>
+                    <div class="tabinsts">
+                        <p>See what's new at a glance and decide what you want to read and respond to.</p>
+                    </div>
+                    <div>
+                        <img class="imgtake" src="assets/stay-organised-instantly-desktop.png">
+                    </div>
+                </div>
+                <div class="sidebya">
+                    <div class="tabdrops">
+                        <p>Never drop the ball</p>
+                    </div>
+                    <div class="tapdrop">
+                        <p>Get nudges that remind you to follow up and respond to messages. so that nothing slips through the cracks.
+                        </p>
+                    </div>
+                    <div>
+                        <img class="imgtakes" src="assets/never-drop-the-ball-desktop.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="right">
+                <h2>
+                    Take action right from the inbox.
+                </h2>
+            </div>
+            <p class="drop">
+                View attachments,RSVP to events.snooze messages and more without opening any emails.
+            </p>
+            <div>
+                <img class="tripo" src="assets/take-action-mobile.png">
+            </div>
+            <div class="rightr">
+                <div class="rights">
+                    <h1>
+                        Take action right from the inbox.
+                    </h1>
+
+                    <p>
+                        View attachments,RSVP to events.snooze messages and more without opening any emails.
+                    </p>
+                </div>
+                <div class="rto">
+                    <img class="tre" src="assets/take-action-desktop.png">
+                </div>
+            </div>
+
+            <div class="reset">
+                <div class="emails">
+                    <h1>
+                        Avoid suspecicious emails
+                    </h1>
+                    <p>
+                        Gmail blocks 99.9% of dangerous emails before they reach you. If we think something seems phish-y you'll get a warning.
+                    </p>
+                </div>
+                <div class="avio">
+                    <img class="avoids" src="assets/avoid-suspicious-emails-desktop.png">
+                </div>
+            </div>
+
+            <div>
+                <h2 class="drop">
+                    Avoid suspecicious emails
+                </h2>
+                <p class="drop">
+                    Gmail blocks 99.9% of dangerous emails before they reach you. If we think something seems phish-y you'll get a warning.
+                </p>
+                <div>
+                    <img class="suspiciouses" src="assets/avoid-suspicious-emails-desktop.png">
+                </div>
+                <div class="gl">
+                    <img class="gmaillog" src="assets/logo-gmail.png">
+                </div>
+                <h2 class="droop">
+                    Get started with Gmail
+                </h2>
+                <div class="getgmailicon">
+                    <p class="gtgi">
+                        Get mail
+                    </p>
+
+                </div>
+                <div class="cv">
+                    <p class="gtgis">
+                        Create an account
+                    </p>
+                </div>
+
+
+
+                <h2>
+                    Google
+                </h2>
+                <div class="footer">
+                    <div class="privacy">
+                        <p class="pr">Privacy</p>
+                        <p class="pr">Terms</p>
+                        <p class="pr">About Google</p>
+                        <p class="pr">Google Products</p>
+                        <p class="pr">Our policy</p>
+                    </div>
+                    <div class="help">
+                        <img class="question" src="assets/question-mark.png">
+                        <p class="pr">Help</p>
+                        <p class="pr">English(India)</p>
+                    </div>
+                </div>
+                <div class="footers">
+                    <p class="pr">Privacy</p>
+                    <p class="pr">Terms</p>
+                    <p class="pr">About Google</p>
+                    <p class="pr">Google Products</p>
+                    <p class="pr">Our policy</p>
+                    <div class="q"><img class="question" src="assets/question-mark.png"></div>
+                    <p class="pr">
+                        </h3>Help</p>
+                    <p class="pr">English(India)</p>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</html>

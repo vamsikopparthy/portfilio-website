@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+        <script src="../bootstrap/jquery.min.js"></script>
+        <script src="../bootstrap/popper.min.js"></script>
+        <script src="../bootstrap/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="assignment11.css" />
+        <style>
+            .flex-box {
+                background-color: grey;
+                display: flex;
+                justify-content: space-around;
+                align-items: stretch;
+                /*flex-direction: row;*/
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .item {
+                font-size: 60px;
+                border: 5px solid white;
+                border-radius: 50px;
+                /* margin: 100px;*/
+                margin-left: 30px;
+                margin-right: 30px;
+                border: 2px solid blue;
+                background-color: white;
+            }
+
+
+
+
+
+
+            .dfg {
+                align-self: flex-start;
+                order: 2;
+                flex-grow: 1;
+            }
+
+            .fgh {
+                align-self: flex-end;
+                order: 1;
+                flex-grow: 1;
+            }
+
+            .hjk {
+                /*align-self: flex-end;*/
+                order: 3;
+            }
+
+            .bnm {
+                align-self: center;
+                order: 4;
+            }
+
+            .nmb {
+                align-self: flex-start;
+                order: 5;
+            }
+
+            .nsb {
+                order: 7;
+            }
+
+            .nab {
+                order: 6;
+            }
+
+            .nlb {
+                order: 9;
+            }
+
+            .npb {
+                order: 8;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="flex-box">
+            <div class="item dfg ">🦜
+                <p>This is a paroot</p>
+            </div>
+            <div class="item fgh ">🦁</div>
+            <div class="item hjk ">🐎</div>
+            <div class="item bnm">🦓</div>
+            <div class="item nmb">🦁</div>
+            <div class="item nsb">🐇</div>
+            <div class="item nab">🐬</div>
+            <div class="item nlb">🐇</div>
+            <div class="item npb">🐬</div>
+        </div>
+
+    </body>
+
+</html>

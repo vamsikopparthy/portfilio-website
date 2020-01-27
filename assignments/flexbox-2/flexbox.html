@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="flexbox.css" />
+  </head>
+  <style>
+    .flex-box {
+      display: flex;
+      font-size: 20px;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+
+    .l {
+      height: 60px;
+      margin-top: 10px;
+      border-radius: 50px;
+    }
+
+    .sa {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .sd {
+      height: 20px;
+      width: 20px;
+    }
+
+
+    .item {
+      justify-content: flex-start;
+      display: flex;
+      padding: 15px;
+    }
+
+    .j {
+      display: flex;
+      align-self: space-between;
+      height: 20px;
+    }
+
+    .s {
+
+      flex-grow: 1;
+    }
+
+
+    .k {
+      height: 25px;
+    }
+
+    .po {
+      height: 20px;
+      width: 20px;
+    }
+
+    img {
+      margin-bottom: -5px;
+    }
+
+    .c {
+      height: 50px;
+      border-radius: 50px;
+    }
+
+    .g {
+      margin-left: 20px;
+      justify-content: space-between;
+      display: flex;
+
+      flex-direction: row;
+      align-items: center;
+      height: 35px;
+    }
+
+    @media (min-width: 768px) {
+      .g {
+        width: 90%;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="flex-box">
+
+      <div class="item">
+        <img class="c" src="assets/twitter.jpg" alt="twitter">
+      </div>
+
+      <div class="s">
+        <div class="sa">
+          <div>
+            <b>Twitter</b>
+            <img class="k" src="assets/tick.svg" alt="tick"> @ Twitter . Jan 1
+          </div>
+
+          <div class="sd">
+            <img src="assets/drop_down.svg" alt="drop_down">
+          </div>
+
+        </div>
+
+
+        <div>
+          <p>New decade drink water</p>
+        </div>
+
+        <div class="g">
+
+          <div> <img class="po" src="assets/message.svg" alt="message"> 13.5k</div>
+          <div><img class="po" src="assets/retweet.svg" alt="retweet"> 290.8k</div>
+          <div><img class="po" src="assets/like.svg" alt="like"> 943.1k</div>
+          <div><img class="po" src="assets/share.svg" alt="share"></div>
+
+        </div>
+      </div>
+  </body>
+
+</html>

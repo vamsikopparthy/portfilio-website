@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="flexbox.css" />
+    <style>
+      .flex-box {
+        flex-direction: row;
+        height: 500px;
+        display: flex;
+      }
+
+      img {
+        width: 100px;
+      }
+
+      .a {
+        background-color: blue;
+        width: 25%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      .b {
+        background-color: purple;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        display: flex;
+      }
+
+      .c {
+        background-color: orange;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        display: flex;
+
+      }
+
+      .d {
+        background-color: green;
+        align-items: center;
+        width: 25%;
+        justify-content: center;
+        display: flex;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flex-box">
+      <div class="item a "><img src="./assets/HTML5_logo.png" alt="html"></div>
+      <div class="item b"><img src="./assets/CSS_logo.svg" alt="css"></div>
+      <div class="item c"><img src="./assets/bootstrap_logo.png" alt="bootstrap_logo"></div>
+      <div class="item d"><img src="./assets/js_logo.png" alt="js_logo"></div>
+    </div>
+  </body>
+
+</html>

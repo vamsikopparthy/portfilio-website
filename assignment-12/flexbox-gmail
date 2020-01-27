@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Flexbox</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" type="text/css" href="flexbox.css" />
+        <style>
+            .header {
+                display: flex;
+            }
+
+            .headingbutton {
+                border: 1px solid black;
+                background-color: blue;
+                padding: 5px;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="flexbox">
+            <div class="header">
+                <div class="headers">
+                    <img src="assets/logo-gmail.png">Gmail
+                </div>
+                <p class="headingbutton">
+                    Get Gmail
+                </p>
+            </div>
+        </div>
+    </body>
+
+</html>
